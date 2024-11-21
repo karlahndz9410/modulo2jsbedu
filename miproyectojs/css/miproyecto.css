@@ -1,0 +1,89 @@
+body{
+    background-color: #110f0fea
+    ;
+}
+
+header{
+    z-index: 100;
+}
+
+.description{
+    height: 25px;
+    overflow: hidden;
+    transition:height .3s ease in .3s;
+}
+.description:hover{
+    height: 50%;
+}
+
+.carrito{
+    min-height: 80vh;
+    max-width: 1000;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.table__productos{
+    display: flex;
+
+}
+
+.table__productos > img{
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right:20px; 
+
+}
+
+.table__cantidad > input{
+    width: 40px;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+.fondo {
+    width:100%;
+    background-color:black ;
+
+}
+
+.font{
+   width: 100%;
+}
+
+.tit{
+    text-align: center;
+    height:50px ;
+    padding: 50px;
+    color: white;
+
+}
+
+.parrafo{
+    color:#ffffff;
+    text-align: center;
+    height:25px ;
+    padding: 70px;
+    
+
+}
+
+
+
+
+ 
+
+
+
+

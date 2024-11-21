@@ -1,0 +1,167 @@
+body{
+    background-color: #110f0fea;
+  }
+  header, .alert{
+    z-index: 100;
+  }
+  .description{
+    height: 25px;
+    overflow: hidden;
+    transition: height .3s ease-in .3s;
+  }
+  .description:hover{
+    height: 80px;
+  }
+  .carrito{
+    min-height: 80vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .table__productos{
+    display: flex;
+  }
+  .table__productos > img{
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+  }
+  .table__cantidad > input{
+    width: 40px;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+  .hide, .remove{
+    display: none;
+  }
+
+  
+.fondo {
+    width:100%;
+    background-color:black ;
+
+}
+
+.font{
+   width: 100%;
+}
+
+.tit{
+    text-align: center;
+    height:50px ;
+    padding: 50px;
+    color: white;
+
+}
+
+.parrafo{
+    color:#ffffff;
+    text-align: center;
+    height:20px ;
+    padding: 60px;
+    
+
+}
+
+.pago-formulario {
+    display: none;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.pago-formulario h2 {
+    text-align: center;
+}
+
+.pago-opcion {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.pago-opcion input {
+    margin-right: 15px;
+}
+
+.boton-pago {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.boton-pago:hover {
+    background-color: blue;
+}
+
+  
+@media screen and ( max-width:1200px) {
+
+    .parrafo{
+        display: none;
+        
+        
+    }
+
+    .tit{
+        
+        text-align: center;
+        height:10px ;
+        padding: 10px;
+
+    }
+
+    .fondo {
+        display: inline;
+        width:100%;
+        
+    
+    }
+    
+    .font{
+        display: inline;
+       width: 100%;
+
+    }
+
+
+}
+
+@media screen and ( max-width:756px) {
+
+    .header  {
+        margin-bottom: 10px;
+        font-size: 30px;}
+
+    .parrafo{
+        display: none;
+        
+        
+    }
+
+    .tit{
+        
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        display: flex;
+
+    }
+
+
+
+}
+
